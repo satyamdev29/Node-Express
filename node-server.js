@@ -1,4 +1,4 @@
-const http = require('http') // http is module we'll require first http module and store in one one varaible that is call http
+const http = require('http') // http is module. First we'll require http module and store in one varaible that is called http
 const port = 3000 // Set port number
 
 // http variable have createServer object which will help to setup server and function will return and store in server variable.
