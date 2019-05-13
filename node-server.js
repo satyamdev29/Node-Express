@@ -3,10 +3,13 @@ const port = 3000
 
 const server = http.createServer(function(request, response){
 if (request.url =='/'){
+    response.status = 200
     response.end('Hello World')
 }else if(request.url=='/about'){
+    response.status = 200
     response.end('This is about page')
 } else if(request.url=='/contact'){
+    response.status = 200
     response.end('Contact page')
 } else if(request.url=='/users'){
     response.status = 200
